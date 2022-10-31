@@ -77,7 +77,7 @@ document.getElementById("By").onclick = function () {
 };
 async function menuju() {
   await swals.fire("OK!", "Kirim jawabannya ke WhatsApp aku, ya!", "success");
-  window.location = "https://wa.me/089652270449?text=" + pesanwhatsapp;
+  window.location = "https://wa.me/6289652270449?text=" + pesanwhatsapp;
 }
 
 vketik1 = kalimat.innerHTML;
